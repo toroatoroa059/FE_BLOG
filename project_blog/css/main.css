@@ -1,0 +1,209 @@
+h1 {
+	line-height: 80px;
+	margin-left: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#realstate  {
+	height: 660px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#realstate .detail {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#realstate .common ul {
+	position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    top: 25px;
+}
+
+#realstate .common div {
+	margin-top: 26px;
+}
+
+#realstate .common h2 {
+	font-size: 30px;
+}
+
+
+#realstate .common p,
+#realstate .common div {
+	max-width: 100%;
+}
+
+#realstate .common h2 {
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #3f0419;
+	font-weight: normal;
+}
+
+#realstate .common p {
+	font-size: 16px;
+	color: white;
+	line-height: 26px;
+	margin-top: 26px;
+}
+
+#realstate .common div a {
+	margin-left: 10px;
+	display: inline-block;
+	width: 150px;
+    text-align: center;
+	height: 44px;
+	padding: 0px 30px;
+	border :2px solid white;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 44px;
+	color: white;
+}
+
+#realstate .common div a:first-child {
+	margin-left: 0px;
+	}
+#realstate .common ul li {
+	display: inline-block;
+	margin-left: 9px;
+}
+
+#realstate .common ul li:first-child {
+	margin-left: 0px;
+}
+
+#realstate .common ul li a {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border: 2px solid white;
+	text-indent: -1000000px;
+}
+#realstate .common ul li a.current {
+	background-color: white;
+}
+
+#realstate .common div a:hover {
+	border-color: #23b7a4;
+	background-color: #23b7a4;	
+}
+
+#team {
+	padding-top: 80px;
+	padding-bottom: 100px;
+	max-width: 1140px;
+	margin: 0px auto;
+}
+
+#team h2 {
+	text-transform: uppercase;
+}
+#team-list {
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#team-list > div {
+	width: calc(100%-90px);
+
+}
+#team-list div div img {
+	display: block;
+}
+#team .mask {
+	display: none;
+
+}
+#team .mask ul li {
+	list-style: none;
+}
+#team-list .info {
+	padding: 20px 20px 20px;
+	height: 75px;
+	background-color: #e1e6ea;
+}
+#team-list .info h4 {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #292f36;
+	font-weight: normal;
+}
+#team-list .info p{
+	font-size:  14px;
+	font-weight: normal;
+	color: #8d8f92;
+	margin-top: 3px;
+}
+#team-list div:hover .info {
+	background-color: #3a454d;
+
+}
+
+
+#team-list div:hover .info h4,
+#team-list div:hover .info  p{
+	color: white;
+}
+#team-list div:hover > div .mask {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#team-list div div:not(.info) {
+	position: relative;
+}
+#team-list .mask ul{
+	letter-spacing: -2px;	
+}
+#team-list .mask ul li {
+	display: inline-block;
+
+}
+#team-list .mask ul li a {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #3a454d;
+	text-indent: -1000000px;
+	background-position: center center;
+	background-size: auto 14px;
+}
+#team-list .mask ul li:nth-child(1) a {
+	background-image: url(../picture/fb.png);
+	background-repeat: no-repeat;
+
+}
+#team-list .mask ul li:nth-child(2) a {
+	background-image: url(../picture/I.png);
+	background-repeat: no-repeat;
+	
+}
+#team-list .mask ul li:nth-child(3) a {
+	background-image: url(../picture/g.png);
+	background-repeat: no-repeat;
+	
+}
+#team-list .mask ul li a:hover{
+ background-color:  #4e5a62;
+}

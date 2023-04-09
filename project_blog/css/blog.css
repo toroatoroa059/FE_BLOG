@@ -1,0 +1,56 @@
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+    display:grid;
+    grid-template-areas: 
+	   "hd hd"
+	   "main main"
+	   "ft ft";
+ }
+
+ .header1 {
+ 	grid-area: 1 / 1 / 2 / 2;
+ }
+
+header {
+	grid-area: hd;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #1d2126;
+
+}
+ .main {
+ 	grid-area: main;
+ 	display: grid;
+ 	background-image: url(../picture/buji-khalifa.jpeg);
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #45475d;
+	grid-template-columns: 1fr;
+ }
+
+footer {
+	grid-area: ft;
+}
+
+.common {
+	max-width: 100%;
+	margin: 0px auto;
+}
+
+h1 {
+	line-height: 80px;
+	margin-left: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}

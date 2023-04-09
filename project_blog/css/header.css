@@ -1,0 +1,45 @@
+h1 {
+	line-height: 80px;
+	margin-left: 10px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.navbar {
+	grid-area: 1 / 2 / 2 / 3;
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+
+header .navbar ul li {
+	display: inline-block;
+	line-height: 81px;
+}
+
+header .navbar ul li a {
+	width: 125px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 12px;
+	margin-left: 16px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	color: #a4aead;
+	border: 2px solid transparent;
+	font-size: 14px;
+}
+
+header .navbar ul li a:hover {
+	border-color:  #5b6168;
+}
+
+header .navbar ul li a:hover {
+	border-color: #23b7a4;
+	color: #23b7a4;
+}
