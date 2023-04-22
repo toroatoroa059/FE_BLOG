@@ -15,7 +15,16 @@ a:link {
     margin-right: 30px;
 }
 
-
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+header .sticky {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
 header .navbar ul li {
 	display: inline-block;
 	line-height: 81px;
