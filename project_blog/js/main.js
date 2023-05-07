@@ -16,3 +16,12 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",(
 	nav.classList.remove("active");
 }));
 
+document.querySelectorAll('a[href^="#"]').forEach(archor => {
+	archor.addEventListener("click",function(e){
+		e.preventDefault();
+		document.querySelector(this.getAttribute("href")).scrollIntoView({
+			behavior: "smooth"
+		});
+	});
+});
+
